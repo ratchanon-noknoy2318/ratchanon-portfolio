@@ -1,0 +1,79 @@
+.footer {
+  background-color: transparent;
+  color: #64748b;
+  padding: 60px 20px 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  font-size: 0.95rem;
+  position: relative;
+}
+
+/* Decorative double line separator - Book Style */
+.footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 120px;
+  height: 4px;
+  border-top: 1px solid #cbd5e1;
+  border-bottom: 1px solid #cbd5e1;
+  opacity: 0.6;
+}
+
+.footer p {
+  margin: 0;
+  line-height: 1.7;
+  font-weight: 300;
+}
+
+.socialLinks {
+  display: flex;
+  gap: 1.25rem;
+  margin: 0.5rem 0;
+}
+
+.socialLink {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  color: #64748b;
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: #fff;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+}
+
+.socialLink:hover {
+  background-color: #fff;
+  color: var(--primary-color);
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.08);
+  border-color: var(--primary-color);
+}
+
+
+
+.profileLink {
+  color: var(--primary-color);
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 4px;
+  transition: color 0.2s ease;
+  font-family: 'Mali', cursive; /* Signature style */
+}
+
+.profileLink:hover {
+  color: var(--primary-dark);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}

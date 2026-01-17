@@ -1,0 +1,224 @@
+.feedCard {
+  width: 100%;
+  max-width: 555px;
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 4px rgba(0,0,0,0.04);
+  overflow: hidden;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.feedHeader {
+  padding: 12px 16px 0;
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.avatar {
+  margin-right: 12px;
+}
+
+.headerContent {
+  flex: 1;
+}
+
+.headerRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.userName {
+  font-weight: 600;
+  font-size: 14px;
+  color: rgba(0,0,0,0.9);
+}
+
+.moreIcon {
+  color: rgba(0,0,0,0.6);
+  cursor: pointer;
+}
+
+.userTitle {
+  font-size: 12px;
+  color: rgba(0,0,0,0.6);
+  line-height: 1.33;
+}
+
+.timestamp {
+  font-size: 12px;
+  color: rgba(0,0,0,0.6);
+  display: flex;
+  align-items: center;
+  margin-top: 4px;
+}
+
+.globeIcon {
+  margin-left: 4px;
+}
+
+.feedBody {
+  padding: 0 16px;
+  font-size: 14px;
+  color: rgba(0,0,0,0.9);
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+.feedContentBorder {
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.skillsBackground {
+  padding: 16px;
+  background-color: #eef3f8;
+}
+
+.skillCategoryCard {
+  margin-bottom: 12px;
+  background-color: #fff;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.skillCategoryTitle {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: rgba(0,0,0,0.9);
+}
+
+.skillTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skillTag {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  color: rgba(0,0,0,0.7);
+  border: 1px solid rgba(0,0,0,0.15);
+  border-radius: 16px;
+  padding: 4px 8px;
+  background-color: #fff;
+}
+
+.skillIcon {
+  margin-right: 6px;
+  display: flex;
+  align-items: center;
+}
+
+.feedFooter {
+  padding: 4px 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.actionButton {
+  background: transparent;
+  border: none;
+  padding: 10px 8px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  color: rgba(0,0,0,0.6);
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  flex: 1;
+  justify-content: center;
+  gap: 8px;
+}
+
+.actionButton:hover {
+  background-color: rgba(0,0,0,0.08);
+}
+
+.projectTitle {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.projectDescription {
+  margin-bottom: 8px;
+  white-space: pre-line;
+}
+
+.hashtags {
+  color: #0a66c2;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+
+.linksContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.linkItem {
+  color: #0a66c2;
+  text-decoration: none;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.linkButton {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.imageContainer {
+  width: 100%;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.filterSection {
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 16px;
+  background-color: #fff;
+}
+
+.centeredContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.sectionContainer {
+  background-color: #f3f2ef;
+  padding: 2rem 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.projectsList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding-bottom: 2rem;
+}

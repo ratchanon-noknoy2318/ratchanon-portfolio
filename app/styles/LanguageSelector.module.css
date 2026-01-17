@@ -1,0 +1,54 @@
+.container {
+  position: fixed;
+  top: 30px;
+  right: 20px;
+  z-index: 1002;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(12px);
+  padding: 5px;
+  border-radius: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+  color: #64748b;
+  padding: 8px 16px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 700;
+  font-family: var(--font-family-sans);
+  z-index: 2;
+  transition: color 0.3s ease;
+  min-width: 50px;
+}
+
+.glider {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  height: calc(100% - 10px);
+  width: calc(50% - 5px);
+  background: linear-gradient(135deg, var(--accent-color) 0%, var(--primary-color) 100%);
+  border-radius: 25px;
+  box-shadow: 0 4px 12px rgba(72, 110, 159, 0.4);
+  transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+  z-index: 1;
+}
+
+.gliderRight {
+  transform: translateX(100%);
+}
+
+.activeText {
+  color: white;
+}
