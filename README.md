@@ -14,6 +14,16 @@
 
 ---
 
+## Original Design Reference
+
+> พอร์ตโฟลิโอฉบับนี้ออกแบบโครงสร้างและแนวคิดเบื้องต้นจาก Canva  
+> และนำมาพัฒนาเป็นเว็บไซต์จริงด้วย Next.js
+
+- **Canva Design (Original Layout):**  
+  https://www.canva.com/design/DAG82WrwRSs/4CTVR50SckrP9EAB94ukCQ/view?utlId=h02d1414c12
+
+---
+
 ## Table of Contents
 
 | No. | Section | Description |
