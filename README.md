@@ -1,70 +1,59 @@
-# Ratchanon Noknoy – Professional Portfolio
+# Ratchanon Noknoy - Professional Portfolio
 
-เว็บไซต์พอร์ตโฟลิโอส่วนตัวสำหรับรวบรวม  
-**ทักษะ • ประสบการณ์ทำงาน • ผลงานด้านการพัฒนาซอฟต์แวร์ระบบโรงพยาบาล (Health Tech)**
-
-มุ่งเน้นการพัฒนาระบบสารสนเทศเพื่อสนับสนุนการให้บริการด้านสาธารณสุข  
-เพิ่มประสิทธิภาพการทำงานของบุคลากร และยกระดับประสบการณ์ผู้ป่วย
+This repository contains the source code for the professional portfolio of Ratchanon Noknoy. It serves as a comprehensive showcase of career milestones, technical proficiency, and specialized experience in Healthcare IT and Full-Stack Development.
 
 ---
 
-## Project Preview
+## Executive Summary
 
-![Health IT Dashboard Preview](https://ratchanon-portfolio.vercel.app/og-image.png)
-
----
-
-## Original Design Reference
-
-> พอร์ตโฟลิโอฉบับนี้ออกแบบโครงสร้างและแนวคิดเบื้องต้นจาก Canva  
-> และนำมาพัฒนาเป็นเว็บไซต์จริงด้วย Next.js
-
-- **Canva Design (Original Layout):**  
-  https://www.canva.com/design/DAG82WrwRSs/4CTVR50SckrP9EAB94ukCQ/view?utlId=h02d1414c12
-
----
-
-## Table of Contents
-
-| No. | Section | Description |
-| :-: | :--- | :--- |
-| 01 | Cover | ข้อมูลเบื้องต้นและตำแหน่งงานปัจจุบัน |
-| 02 | Preface | เป้าหมายและแนวคิดด้าน Healthcare IT |
-| 03 | Profile | ข้อมูลการติดต่อและสรุปทักษะ |
-| 04 | Experience | ประสบการณ์ทำงานในโรงพยาบาล |
-| 05 | Skills | Frontend, Backend, Database |
-| 06 | Projects | ระบบที่พัฒนาใช้งานจริง |
-| 07 | LINE OA Development | Automation และ Rich Menu |
-| 08 | Education | มหาวิทยาลัยแม่ฟ้าหลวง |
-| 09 | Certificates | เกียรติบัตรและผลการเรียน |
-| 10 | Activities | การอบรมและกิจกรรม |
-| 11 | Work Atmosphere | ภาพการทำงานจริง |
-
----
-
-## Technical Stack
-
-| Category | Technology |
+| Category | Details |
 | :--- | :--- |
-| Framework | Next.js (App Router) |
-| Styling | Tailwind CSS |
-| Deployment | Vercel |
-| Database | SQL (HOSxP Database) |
-| External API | Google Sheets API |
-| Messaging API | LINE Messaging API |
+| **Developer** | Ratchanon Noknoy (Film) |
+| **Current Focus** | Data Engineering & Full Stack Development |
+| **Specialization** | Solution Engineering, Healthcare Systems (HOSxP), Data Integration |
+| **Location** | Kamphaeng Phet, Thailand |
 
 ---
 
-## Contact Information
+## Technical Proficiency
 
-- **Website:** https://ratchanon-portfolio.vercel.app  
-- **Email:** ratchanon.noknoy2318@gmail.com  
-- **LinkedIn:** https://www.linkedin.com/in/ratchanon-noknoy  
-- **GitHub:** https://github.com/ratchanon-noknoy2318  
+| Domain | Technologies and Tools |
+| :--- | :--- |
+| **Frontend Architecture** | React, Next.js, Tailwind CSS, HTML5, CSS3 |
+| **Backend & Scripting** | SQL, PHP, Google App Script (GAS) |
+| **Integration & Messaging** | LINE Messaging API, LINE Notify, RESTful APIs |
+| **Deployment & DevOps** | Vercel, Render, Git, CI/CD Pipelines |
+| **Specialized Systems** | HOSxP (Hospital Operation Systems), PDPA Compliance |
 
 ---
 
-## Copyright
+## Professional Achievements
 
-Copyright © 2026 Ratchanon Noknoy  
-All Rights Reserved.
+| Metric | Impact and Description |
+| :--- | :--- |
+| **Rapid Deployment** | Engineered and delivered 6 production-ready healthcare systems within a 7-month timeframe. |
+| **Process Efficiency** | Reduced patient registration latency and administrative workload by approximately 80%. |
+| **Scalable Data** | Managed and optimized clinical databases exceeding 400,000 patient records. |
+| **Digital Transformation** | Implemented secure Telemedicine and automated appointment modules via LINE OA. |
+
+---
+
+## Project Directory
+
+| Section | Description |
+| :--- | :--- |
+| **Professional Experience** | Detailed career history at Kamphaeng Phet Municipality Hospital and Kosamphi Nakhon Hospital. |
+| **Technical Portfolio** | A curated collection of web applications, including Patient Registration and Queue Management. |
+| **LINE Ecosystem** | Architecture of LINE Official Accounts using custom Rich Menus and Flex Messages. |
+| **Academic Background** | Bachelor of Science in Software Engineering from Mae Fah Luang University. |
+| **Certifications** | Validated credentials in PDPA compliance, Big Data, and AI-driven media development. |
+
+---
+
+## Development Setup
+
+To initialize the project environment locally, please follow these procedures:
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
